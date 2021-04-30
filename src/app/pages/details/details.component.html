@@ -1,0 +1,27 @@
+
+
+  <div class="container">
+
+
+    <table>
+        <tr>
+            <td colspan="3">
+                <div class="name">{{  (users$ | async)?.firstName }} {{  (users$ | async)?.lastName }}</div>
+            </td>
+        </tr>
+        <tr>
+            <td class="details-td">
+                <div class="labels">Phone</div> : <div class="phone">{{  (users$ | async)?.phoneNumber }}</div>
+                <br><div class="labels">MOB</div> : <div class="mobile">{{  (users$ | async)?.mob }}</div>
+                <br><div class="labels">Email</div> : <div class="email">{{  (users$ | async)?.email }}</div>
+            </td>
+            <td class="description-td">
+                
+                <div class="description" spellcheck="false">FILED Because Our AI-Powered Software Will Exceed Your Marketing Goal</div>
+                
+                <input type="button" value="Update" class="update">
+            </td>
+        </tr>
+    </table>
+  </div>
+

@@ -1,0 +1,169 @@
+
+<notifier-container></notifier-container>
+<div class="container-fluid HeroTop">
+    <div class="row">
+        <div class="col-md-12 logo">
+            <img src="assets/logo.png" />
+        </div>
+
+        <div class="col-md-6 col-sm-12 HeroLeft">
+            <div class="row">
+                <div class="col-md-12 HeroContent">
+                    <h1>Book a demo today and <br> get two weeks for <span class="blue">free.</span> Why?</h1>
+                    <h3><span>Because Our AI-Powered Software Will Exceed Your Marketing Goals.</span></h3>
+                </div>
+                <div class="col-md-12 HeroImg">
+                    <img src="assets/comp.png" />
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-sm-12 HeroForm">
+            <div class="form">
+                <h2>We'll be in touch to get your trial set up.</h2>
+                <h6>Fill Out Form</h6>
+                <form (ngSubmit)="save()" [formGroup]="formGroup">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-6 col-6 form-group">
+                                <input type="text" class="form-control"
+                                    [ngClass]="{ 'is-invalid': submitted && L.firstName.errors }"
+                                    formControlName="firstName" placeholder="First Name *">
+
+                                <div *ngIf="submitted &&  L.firstName.errors" class="invalid-feedback mb-1">
+                                    <div *ngIf=" L.firstName.errors.required">
+                                        Please provide a First Name. </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-6 col-6 form-group">
+                                <input type="text" [ngClass]="{ 'is-invalid': submitted && L.lastName.errors }"
+                                    class="form-control" formControlName="lastName" placeholder="Last Name *">
+                                <div *ngIf="submitted &&  L.lastName.errors" class="invalid-feedback mb-1">
+                                    <div *ngIf=" L.lastName.errors.required">
+                                        Please provide a Last Name. </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-12 col-12 form-group">
+                                <input type="text" [ngClass]="{ 'is-invalid': submitted && L.email.errors }"
+                                    class="form-control" formControlName="email" placeholder="Email *">
+                                <div *ngIf="submitted &&  L.email.errors" class="invalid-feedback mb-1">
+                                    <div *ngIf=" L.email.errors.required">
+                                        Please provide a Email. </div>
+                                    <div *ngIf=" L.email.errors.email">
+                                        Wrong Email format. </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-12 col-12 form-group">
+                                <input type="number" [ngClass]="{ 'is-invalid': submitted && L.mob.errors }"
+                                    class="form-control" id="" formControlName="mob"
+                                    placeholder="Monthly Advertising Budget *">
+                                <div *ngIf="submitted &&  L.mob.errors" class="invalid-feedback mb-1">
+                                    <div *ngIf=" L.mob.errors.required">
+                                        Please provide a Monthly Advertising Budget. </div>
+                                </div>
+
+
+                            </div>
+                         
+                            <div class="col-md-12 col-12 form-group formFlex">
+                                <div class="box">
+                                    <select class="formJoinR" (change)="onselectCode($event.target.value)">
+                                        <option disabled value="" selected>CVV</option>
+                                        <option [value]="item.dial_code"
+                                        *ngFor="let item of country_code; let i = index" value="">
+                                        {{ item.name }}({{item.dial_code}})
+                                    </option>                                      
+                                      </select>
+                                </div>
+                                
+                                <input type="text" class="form-control formJoin" [ngClass]="{ 'is-invalid': submitted && L.phoneNumber.errors }"
+                                formControlName="phoneNumber" placeholder="+40">
+                               
+                             
+                            </div>
+
+                      
+                                <div  *ngIf="submitted &&  L.phoneNumber.errors" class="invalid-feedback col-md-12 col-sm-12 col-xs-12 col-12 form-group">
+                                    <div *ngIf=" L.phoneNumber.errors.required">
+                                        Please provide a Phone Number. </div>
+                                </div>
+    
+                           
+
+                            
+                            <div class="col-md-12 col-12 form-group ">
+                                <input type="submit" class="form-control form-group" id="subBtn" value="GET FREE TRIAL">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <img id="grid1" src="assets/grid1.png">
+        <img id="grid2" src="assets/grid1.png">
+        <img id="circle1" src="assets/circle.png">
+        <img id="circle2" src="assets/smallCircle.png">
+        <img id="circle3" src="assets/smallCircle.png">
+        <img id="circle4" src="assets/smallCircle.png">
+        <img id="circle5" src="assets/Subtraction 21.svg">
+
+    </div>
+
+</div>
+
+<div class="container-fluid Offer">
+    <div class="row">
+        <div class="col-12">
+            <h2>Our Offer: Intelligent Automation. Real-time Insights. Unparalleled Results.</h2>
+            <img id="circle55" src="assets/circle.png">
+            <img id="circle6" src="assets/Subtraction 21.svg">
+            <img id="logo1" src="assets/facebook.svg">
+            <img id="logo2" src="assets/google-plus.svg">
+            <img id="logo3" src="assets/instagram-icon.svg">
+          
+               
+                <img id="grid4" src="assets/grid1.png">
+                <img id="grid5" src="assets/grid1.png">
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid Benefits">
+    <div class="row">
+        <div class="col-md-6 col-sm-12 benText">
+            <h2>The <span class="blue">Benefits</span> of using Filed.</h2>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <div class="col-12 info">
+                <div class="icon"><i class="fa fa-check"></i></div>
+                <div class="text">
+                    <p><span>Ability to scale using Dexter, our AI-powered marketing genius.</span></p>
+                </div>
+            </div>
+
+            <div class="col-12 info">
+                <div class="icon"><i class="fa fa-check"></i></div>
+                <div class="text">
+                    <p><span>Client Success Manager who will optimize your Facebook ad campaigns and focus on driving
+                            the best possible results for you.</span></p>
+                </div>
+            </div>
+
+            <div class="col-12 info">
+                <div class="icon"><i class="fa fa-check"></i></div>
+                <div class="text">
+                    <p><span>This is a limited time offer only.</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<quotes></quotes>
+
+
+<footers></footers>

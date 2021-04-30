@@ -1,0 +1,16 @@
+.is-invalid {
+  border-color: rgb(255, 0, 0) !important;
+  font-size: 15px;
+}
+
+.invalid-feedback {
+  color: rgb(255, 0, 0) !important;
+  text-align: left !important;
+  font-size: 9px;
+  margin-top: 5px;
+}
+.rows {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+}

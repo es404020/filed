@@ -1,0 +1,973 @@
+@import "~angular-notifier/styles";
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: none!important;
+    font-family: 'Roboto', sans-serif;
+}
+.HeroTop #circle5{
+    display: none;
+}
+
+.HeroTop{
+    height: auto;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+}
+.Offer .row #grid4 {
+    position: absolute;
+    left: 30rem;
+    width: 15rem;
+    bottom: 7rem;
+}
+
+.HeroTop .row{
+    height: 100%;
+    /*border:1px solid red;*/
+    margin: 0 5%;
+    padding: 5%;
+    position: relative;
+}
+.formFlex{
+    display: flex;
+}
+
+.HeroTop .logo{
+    /*border: 1px solid red;*/
+}
+
+.HeroTop .logo img{
+    width: 9%;
+}
+
+.HeroTop .HeroLeft{
+   /* border: 1px solid red;*/
+    padding: 0;
+}
+
+.HeroTop .HeroLeft .row{
+    margin: 0;
+    padding: 0;
+    margin-top: 5%;
+    z-index: 1;
+}
+
+.HeroTop .HeroLeft .row .HeroContent{
+    padding: 0;
+    /*border: 1px solid green;*/
+}
+
+.blue{
+    color: #38CCF5 !important
+}
+
+
+
+.HeroTop .HeroLeft .row .HeroContent h1{
+    font-weight: 500;
+    line-height: 1.5;
+    color: black;
+    width: 70%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.HeroTop .HeroLeft .row .HeroContent h3{
+    font-weight: 400;
+    line-height: 1.3;
+    color: black;
+    width: 60%;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.HeroTop .HeroLeft .row .HeroImg{
+    display: flex;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.HeroTop .HeroLeft .row .HeroImg Img{
+    width: 90%;
+}
+
+.HeroTop .HeroForm{
+    z-index: 1;
+    padding: 0 5%;
+    padding-right: 2.5%;
+}
+
+.HeroTop .HeroForm .form{
+    background: #FBFBFB;
+    z-index: 1;
+    padding: 15%;
+    padding-top: 15%;
+    padding-bottom: 1%;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.HeroTop .HeroForm .form .container-fluid, .HeroTop .HeroForm .form .row{
+    padding: 0;
+    margin: 0;
+}
+
+.form .form-group{
+    margin-bottom: 8%;
+}
+
+.form h2, .form h6{
+    margin-bottom: 5%;
+    font-weight: 600;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form h6{
+    font-weight: 500;
+}
+
+.form .form-control{
+    height: auto;
+}
+
+.form .form-group input,select{
+    padding: 2.5%;
+    background: white;
+    border-radius: 10px;
+    border-color: #DEDEDE;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form .col-md-6 input{
+    padding: 6%;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #DEDEDE;
+    box-shadow: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+::placeholder { 
+    color: red;
+    opacity: 1; 
+  }
+
+  ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #909;
+}
+
+
+.form #subBtn{
+    background: #FF6E4E;
+    color: white;
+    padding: 2.5%;
+    text-align: center;
+    border-radius: 10px;
+    border-color: #FF6E4E;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+.HeroTop #grid1{
+    position: absolute;
+    right: 5%;
+    width: 7%;
+    z-index: 0;
+}
+
+.HeroTop #grid2{
+    position: absolute;
+    left: 6%;
+    bottom: 40%;
+    width: 9%;
+    z-index: 0;
+    color: red;
+}
+
+.HeroTop #circle1{
+    position: absolute;
+    right: 30%;
+    top: 8%;
+    width: 20%;
+    z-index: 0;
+}
+
+.HeroTop #circle2{
+    position: absolute;
+    left: 45%;
+    top: 35%;
+    width: 5%;
+    z-index: 0;
+}
+
+.HeroTop #circle3{
+    position: absolute;
+    left: 42%;
+    top: 43%;
+    width: 3%;
+    z-index: 0;
+}
+
+.HeroTop #circle4{
+    position: absolute;
+    left: 40%;
+    top: 50%;
+    width: 1.5%;
+    z-index: 0;
+}
+
+
+
+.formJoin{
+    border-left: none;
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    padding-left: 10%!important;
+}
+.formJoinR{
+    border-right: none;
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    padding-right: 10%!important;
+}
+
+
+
+.form-control::-webkit-input-placeholder {
+    color: black ;
+}
+.form-control::-moz-placeholder {
+    /* FF 4-18 */
+    color: black !important;
+    opacity: 1;
+}
+.form-control::-moz-placeholder {
+    /* FF 19+ */
+    color: black;
+    opacity: 1;
+}
+.form-control::-ms-input-placeholder {
+    /* IE 10+ */
+    color: black;
+}
+.form-control::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: black;
+}
+.form-control::placeholder {
+    /* modern browser */
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Offer{
+    height: 400px;
+    background: url('assets/Group\ 393@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Offer .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.Offer .col-12 h2{
+    color: #38CCF5;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.Offer #circle55{
+    position: absolute;
+    left:-250px;
+    width: 50rem;
+    top: 0;
+}
+
+
+.Offer #logo1 {
+    position: absolute;
+    right: 20%;
+    top: 12rem;
+    transform: rotate(
+20deg
+);
+}
+.Offer #logo2 {
+    position: absolute;
+    right: 11%;
+    bottom: 15rem;
+    transform: rotate(
+-20deg
+);
+}
+
+
+.Benefits{
+
+    padding: 5% 10%;
+    font-family: 'Roboto', sans-serif;    
+    position: relative;
+    z-index: 2;
+    background: #fff;
+} 
+
+.Benefits .row{
+    height: 100%;
+    display: flex;
+    align-items: center;
+} 
+
+.Benefits .col-md-6{
+    height: 100%;
+} 
+
+
+.Benefits .info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 3% 0;
+}
+
+.Benefits .info .icon{
+    font-size: 30px;
+    color: #38CCF5;
+    margin-right: 5%;
+}
+
+
+.Benefits .info .text p{
+    font-size: 17px;
+    color: #111;
+    margin: 0;
+}
+
+.Benefits .info .text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.quotes{
+    background: transparent linear-gradient(180deg, var(--unnamed-color-38ccf5) 0%, #3ECCF5 0%, #42CCF5 16%, #36C1EE 38%, #119FD6 62%, #2A97BF 81%, #108ABF 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #38CCF5 0%, #3ECCF5 0%, #42CCF5 16%, #36C1EE 38%, #119FD6 62%, #2A97BF 81%, #108ABF 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding: 1% 10%;
+    padding-bottom: .5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quotes .row{
+}
+
+.quotes .col-md-4{
+    display: flex;
+    align-items: center;
+    padding: 3%;
+    flex-direction: column;
+}
+
+.quotes .quotes1{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.quotes .quotes1 .fa{
+    font-size: 80px;
+    color: white;
+    margin-right: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes .quotes1 h4{
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+}
+
+
+.quotes .quotes2{
+    width: 100%;
+    align-items: center;   
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0;
+ }
+
+.quotes .quotes2 p{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.9;
+    width: 80%;
+}
+
+
+.quotes .quotes3{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.quotes .quotes3 img{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+.quotes .quotes3 h4{
+    font-size: 25px;
+    color: white;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.quotes .quotes3 h5{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.Offer{
+    height: 500px;
+    /*background: url('png/Group\ 393@2x.png');*/
+    background: #FBFBFB;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.Offer .logo{
+    font-size: 30px;
+}
+
+
+
+.Offer #icon1{
+    position: absolute;
+    right: 20%;
+    top: 12rem;
+    transform: rotate(20deg);
+}
+
+
+.Offer #logo2{
+    position: absolute;
+    right: 11%;
+    bottom: 15rem;
+    transform: rotate(-20deg);
+}
+
+
+.Offer #logo3{
+    position: absolute;
+    right: 28%;
+    bottom: 10rem;
+    transform: rotate(-30deg);
+}
+
+
+
+
+.Offer #circle5{
+    position: absolute;
+    left:-250px;
+    width: 50rem;
+    top: 0;
+}
+
+.Offer #circle6{
+    position: absolute;
+    right: -50px;
+    top: -50px;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+}
+
+.Offer .row #grid4{
+    position: absolute;
+    left:30rem;
+    width: 15rem;
+    bottom: 7rem;
+}
+
+.Offer .row #grid5{
+    position: absolute;
+    right: -10px;
+    bottom: -50px;
+    z-index: 1 ;
+    transform: rotate(-50deg);
+    overflow:hidden
+}
+
+
+.Offer .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 0;
+}
+
+.Offer .col-12 h2{
+    color: #38CCF5;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.footer{
+    background: #595957;
+    padding: 1% 10%;
+    color: white;
+    font-weight: 300 !important;
+    font-size: .8vw;
+}
+
+.footer h5{
+    font-weight: 300 !important;
+    font-size: .8vw;
+}
+
+.footer .container-fluid .row{
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer ul{
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.footer ul li{
+    /*display: inline;*/
+    margin-right: 10%;
+    
+}
+
+.footer .socials a{
+    color: white;
+    font-size: 20px;
+    margin-right: 20%;
+}
+
+.footer .socials{
+    display: flex;
+    align-items: center;
+}
+.box select {
+    color: #111;
+    background: white;
+    padding: 12px;
+    width: 180px;
+    border-color: #DEDEDE;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-right: none;
+    /*font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;*/
+  }
+  
+  .box::before {
+    content: "\f13a";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 45px;
+    color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+  }
+  
+  .box:hover::before {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .box select option {
+    padding: 30px;
+  }
+
+@media only screen and (max-width: 1381px){
+    .quotes .quotes2{
+        height: 200px;
+        margin: 5% 0;
+        display: block;
+     }
+
+     .quotes .quotes1{
+        height: 150px;
+        
+     }
+
+     .quotes .quotes1 h4{
+       display: flex;
+       align-items: center;       
+     }
+
+     .HeroTop #circle5{
+        display: none;
+    }
+    .box select {
+        width: 150px;
+     }
+}
+
+
+@media only screen and (max-width: 991px){
+    .footer .container-fluid .row{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .footer h5 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    .footer ul{
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.5rem;    
+        padding: 0;
+        margin-top: 3%;
+    }
+
+    .footer ul li{
+        margin: 1% 0;
+    }
+
+    .footer .socials {
+        justify-content: center;
+    }
+
+    .footer .socials a{
+       margin: 1%;
+       font-size: 2.5rem;
+    }
+
+    .quotes .quotes1 {
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    .quotes .quotes1 h4{
+        width: auto;
+        height: auto;
+        font-size: 3.5rem;
+    }
+
+    .quotes .col-md-4{
+        align-items: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1% 0;
+    }
+
+    .quotes .quotesbox{
+        width: 60%;        
+    }
+
+    .quotes .quotes2{
+        height: auto;
+        padding: 0;
+        padding-right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .quotes .quotes2 p{
+        width: 100%;
+        font-size: 2.8rem;
+    }
+
+    .Offer {
+        background: #FBFBFB;
+    }
+
+    .Offer .row{
+        padding: 1% 20%;
+    }
+
+    .Offer .col-12 h2{
+        font-weight: 600 !important; 
+    }
+
+    .HeroTop .HeroLeft .row .HeroImg, .HeroTop .logo{
+        display: none;
+        visibility: hidden;
+    }
+
+    .HeroTop .HeroLeft .row .HeroContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .HeroTop .HeroLeft .row .HeroContent h1{
+        font-weight: 800;
+        font-size: 5rem;
+        width: 100%;
+    }
+
+    .HeroTop .HeroLeft .row .HeroContent h3 {
+        margin: 1% 0;
+        margin-bottom: 5%;
+        font-size: 3rem;
+        width: 100%;
+    }
+
+    .box select {
+        width: auto;
+     }
+
+     .HeroTop .HeroForm .form{    
+        height: auto;
+     }
+}
+
+@media only screen and (max-width: 767px){
+    .quotes .quotesbox{
+        width: 80%;    
+        padding: 1%;    
+    }
+    
+
+    .Offer .row{
+        padding: 1% 8%;
+    }
+
+    .Offer .col-12 h2{
+        font-weight: 600 !important; 
+    }
+
+    .HeroTop .HeroForm .form{
+        padding: 5%;
+    }
+    .form .form-group{
+        // padding: ;
+    }
+
+    .Benefits{
+        position: relative;
+        padding: 5% 6%;
+        z-index: 2;
+    }
+
+    .Benefits p{
+        font-size: 2.2rem !important;
+    }
+    .Benefits .row{
+        flex-direction: column;
+    }
+
+    .Benefits h2{
+        width: 70%;
+        text-align: center;
+    }
+
+    .Benefits .col-md-6 {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+        font-weight: 500;
+    }
+    
+    .benText{
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    .HeroTop #circle5{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 576px){
+   
+    .quotes .quotesbox{
+        width: 100%; 
+    }
+
+    .HeroTop .row{
+        padding: 5% 0;
+    }
+
+    .HeroTop .HeroForm{
+        padding: 0;
+    }
+
+    .quotes .quotes2 p{
+        width: 100%;
+        font-size: 2rem;
+    }
+
+    .quotes .quotes3 h5{
+        font-size: 2rem;
+        line-height: 1.9;
+    }
+    .HeroTop .HeroLeft .row .HeroContent h1 {
+        font-weight: 500;
+        line-height: 1.5;
+        color: black;
+         width: 100%; 
+        font-family: "Roboto", sans-serif;
+        text-align: center;
+        font-size: 23px !important;
+    }
+
+    .HeroTop .HeroLeft .row .HeroContent h3 {
+        font-weight: 400;
+        line-height: 1.3;
+        color: black;
+        width: 100%; 
+        margin-top: 5%;
+        margin-bottom: 10%;
+        font-family: "Roboto", sans-serif;
+        font-size: 13px !important;
+        text-align: center;
+    }
+    .HeroTop .HeroLeft .row .HeroImg {
+        display: none;
+      
+    }
+
+    .form h2 {
+       display:none;
+    }
+    .form h6{
+        color: #119FD6;
+    }
+    .HeroTop #circle1 {
+       display: none;
+        
+    }
+    .HeroTop #circle5 {
+        position: absolute;
+        right: -110px;
+        top: -69px;
+        width: 60%;
+        z-index: 0;
+        display: block;
+        
+    }
+    .blue {
+        color: #FF6E4E !important;
+    }
+
+    .HeroTop .logo {
+        /* border: 1px solid red; */
+        display: none;
+    }
+
+    .HeroTop #grid1 {
+        position: absolute;
+        left: -5%;
+        bottom: -2%;
+        width: 27%;
+        z-index: 0;
+    }
+    .footer{
+        display: none;
+    }
+    .quotes .quotes1 h4 {
+        width: auto;
+        height: auto;
+        font-size: 2.5rem;
+    }
+    .quotes .quotes2 p {
+        width: 100%;
+        font-size: 1.5rem;
+    }
+    .quotes .quotes3 h4 {
+        font-size: 19px;
+        color: white;
+        width: 100%;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        line-height: 1.3;
+    }
+    .quotes .quotes3 h5 {
+        font-size: 1.5rem;
+        line-height: 1.9;
+    }
+    .box select {
+        width: 150px;
+        font-size: 13px;
+     }
+
+     .Offer #logo1 {
+        position: absolute;
+        right: 20%;
+        top: 12rem;
+        transform: rotate(
+    20deg
+    );
+    }
+    
+    .Offer .fa-facebook, .Offer #logo3, .Offer #logo2 {
+        font-size: 30px;
+    }
+    .Offer #circle6 ,#circle55,#grid4,#grid5{
+      display: none;
+    }
+}
+@media only screen and (max-width: 400px){
+    
+    .box select {
+        width: 100px;
+     }
+    
+}

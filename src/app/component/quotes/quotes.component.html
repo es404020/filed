@@ -1,0 +1,27 @@
+<div class="container-fluid quotes">
+    <div class="row">
+        <div class="col-md-4 col-sm-12 "  *ngFor="let item of qoutes">
+            <div class="quotesbox">
+                <div class="quotes1">
+                    <i class="fa fa-quote-right"></i>
+                    <h4>"{{item.text1}} <br>{{item.text2}}"</h4>
+                </div>
+                <div class="quotes2">
+                    <p>
+                        <span>"{{item.quote}}"</span>
+                    </p>
+                </div>
+                <div class="quotes3">
+                    <img [src]="item.src">
+                    <div class="quotes3Text">
+                        <h4>{{item.name}} </h4>
+                        <h5>{{item.role}} {{item.twittername}}</h5>
+                    </div>                   
+                </div>
+            </div>
+        </div>
+  
+    
+        
+    </div>
+  </div>
